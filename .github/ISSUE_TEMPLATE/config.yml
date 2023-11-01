@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Aggregated Community Support
+    url: https://github.com/reanimatedmanx/oss/discussions
+    about: Ask any question or new feature support here.
+  - name: General Bug Hunting
+    url: https://rmx.codes/oss/hire
+    about: Please report any bug you want me to hunt down.
+  - name: Security Bug Hunting
+    url: https://rmx.codes/oss/hire
+    about: Please report any security bug you want me to hunt down.
