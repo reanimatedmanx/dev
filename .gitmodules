@@ -28,3 +28,6 @@
 [submodule "forks/gitextensions"]
 	path = forks/gitextensions
 	url = https://github.com/reanimatedmanx/gitextensions.git
+[submodule "forks/jotgit"]
+	path = forks/jotgit
+	url = https://github.com/reanimatedmanx/jotgit.git
