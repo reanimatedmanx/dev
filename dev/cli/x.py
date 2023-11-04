@@ -1,18 +1,60 @@
 import click
+import subprocess
 
 # TODO: Clean this all up.
 
+FETCH_LIMIT = 1000000
+
 def list_forks():
-    print("list_forks")
+    fields = 'name,pushedAt,updatedAt,createdAt'
+    template = """{{tablerow "Repository" "Pushed At"}}{{range .}}{{tablerow .name (timeago .pushedAt | autocolor "green")}}{{end}}"""
+    cli_command = ['gh', 'repo', 'list', f'--limit={FETCH_LIMIT}', '--fork', f'--json={fields}', f'-t={template}']
+
+    try:
+        subprocess.run(cli_command, check=True, stderr=subprocess.PIPE, text=True,encoding="utf8")
+    except subprocess.CalledProcessError as e:
+        print(f"CLI command failed with exit code {e.returncode}")
+        print(f"Output:\n{e.stdout}")
+        print(f"Error:\n{e.stderr}")
 
 def show_forks_status():
     print("show_forks_status")
 
 def add_fork():
-   print("list_forks")
+   print("add_fork")
 
 def sync_fork():
     print("sync_fork")
+
+def update_fork():
+    print("update_fork")
+
+def remove_fork():
+    print("remove_fork")
+
+def tag_fork():
+    print("tag_fork")
+
+def publish_fork():
+    print("publish_fork")
+
+def release_fork():
+    print("release_fork")
+
+def contrib_fork():
+    print("contrib_fork")
+
+def list_repos():
+    print("list_repos")
+
+def create_repo():
+    print("create_repo")
+
+def update_repo():
+    print("update_repo")
+
+def remove_repo():
+    print("remove_repo")
 
 # Groups
 
@@ -116,7 +158,6 @@ def update():
 def remove():
     """Remove owning repository."""
     remove_repo()
-
 
 if __name__ == '__main__':
     cli()
