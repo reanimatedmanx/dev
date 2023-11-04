@@ -19,3 +19,12 @@
 [submodule "forks/gitbucket"]
 	path = forks/gitbucket
 	url = https://github.com/reanimatedmanx/gitbucket.git
+[submodule "forks/gitea"]
+	path = forks/gitea
+	url = https://github.com/reanimatedmanx/gitea.git
+[submodule "forks/gitdesktop"]
+	path = forks/gitdesktop
+	url = https://github.com/reanimatedmanx/gitdesktop.git
+[submodule "forks/gitextensions"]
+	path = forks/gitextensions
+	url = https://github.com/reanimatedmanx/gitextensions.git
