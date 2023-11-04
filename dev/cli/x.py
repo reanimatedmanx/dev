@@ -1,9 +1,21 @@
 import click
+import subprocess
 
 # TODO: Clean this all up.
 
+FETCH_LIMIT = 1000000
+
 def list_forks():
-    print("list_forks")
+    fields = 'name,pushedAt,updatedAt,createdAt'
+    template = """{{tablerow "Repository" "Pushed At"}}{{range .}}{{tablerow .name (timeago .pushedAt | autocolor "green")}}{{end}}"""
+    cli_command = ['gh', 'repo', 'list', f'--limit={FETCH_LIMIT}', '--fork', f'--json={fields}', f'-t={template}']
+
+    try:
+        subprocess.run(cli_command, check=True, stderr=subprocess.PIPE, text=True,encoding="utf8")
+    except subprocess.CalledProcessError as e:
+        print(f"CLI command failed with exit code {e.returncode}")
+        print(f"Output:\n{e.stdout}")
+        print(f"Error:\n{e.stderr}")
 
 def show_forks_status():
     print("show_forks_status")
