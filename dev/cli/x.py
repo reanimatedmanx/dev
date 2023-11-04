@@ -21,10 +21,40 @@ def show_forks_status():
     print("show_forks_status")
 
 def add_fork():
-   print("list_forks")
+   print("add_fork")
 
 def sync_fork():
     print("sync_fork")
+
+def update_fork():
+    print("update_fork")
+
+def remove_fork():
+    print("remove_fork")
+
+def tag_fork():
+    print("tag_fork")
+
+def publish_fork():
+    print("publish_fork")
+
+def release_fork():
+    print("release_fork")
+
+def contrib_fork():
+    print("contrib_fork")
+
+def list_repos():
+    print("list_repos")
+
+def create_repo():
+    print("create_repo")
+
+def update_repo():
+    print("update_repo")
+
+def remove_repo():
+    print("remove_repo")
 
 # Groups
 
@@ -128,7 +158,6 @@ def update():
 def remove():
     """Remove owning repository."""
     remove_repo()
-
 
 if __name__ == '__main__':
     cli()
