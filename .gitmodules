@@ -7,3 +7,15 @@
 [submodule "forks/gh-cli"]
 	path = forks/gh-cli
 	url = https://github.com/reanimatedmanx/gh-cli.git
+[submodule "forks/git-extras"]
+	path = forks/git-extras
+	url = https://github.com/reanimatedmanx/git-extras.git
+[submodule "forks/git-lfs"]
+	path = forks/git-lfs
+	url = https://github.com/reanimatedmanx/git-lfs.git
+[submodule "forks/git-tips"]
+	path = forks/git-tips
+	url = https://github.com/reanimatedmanx/git-tips.git
+[submodule "forks/gitbucket"]
+	path = forks/gitbucket
+	url = https://github.com/reanimatedmanx/gitbucket.git
