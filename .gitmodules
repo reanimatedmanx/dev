@@ -31,3 +31,6 @@
 [submodule "forks/jotgit"]
 	path = forks/jotgit
 	url = https://github.com/reanimatedmanx/jotgit.git
+[submodule "forks/ossinsight"]
+	path = forks/ossinsight
+	url = https://github.com/reanimatedmanx/ossinsight.git
