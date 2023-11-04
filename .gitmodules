@@ -1,3 +1,9 @@
 [submodule "forks/pocketbase"]
 	path = forks/pocketbase
 	url = https://github.com/reanimatedmanx/pocketbase.git
+[submodule "forks/git"]
+	path = forks/git
+	url = https://github.com/reanimatedmanx/git.git
+[submodule "forks/gh-cli"]
+	path = forks/gh-cli
+	url = https://github.com/reanimatedmanx/gh-cli.git
