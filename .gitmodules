@@ -35,13 +35,13 @@
 	path = forks/ossinsight
 	url = https://github.com/reanimatedmanx/ossinsight.git
 [submodule "forks/rust"]
-	path = forks/rust
+	path = forks/@languages/code/rust
 	url = https://github.com/reanimatedmanx/rust
 [submodule "forks/zig"]
-	path = forks/zig
+	path = forks/@languages/code/zig
 	url = https://github.com/reanimatedmanx/zig
 [submodule "forks/go"]
-	path = forks/go
+	path = forks/@languages/code/go
 	url = https://github.com/reanimatedmanx/go
 [submodule "forks/forks/vscx"]
 	path = forks/vscx
