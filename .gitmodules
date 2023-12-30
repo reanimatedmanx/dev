@@ -43,3 +43,12 @@
 [submodule "forks/go"]
 	path = forks/go
 	url = https://github.com/reanimatedmanx/go
+[submodule "forks/forks/vscx"]
+	path = forks/vscx
+	url = https://github.com/reanimatedmanx/vscx.git
+[submodule "forks/kopia"]
+	path = forks/kopia
+	url = https://github.com/reanimatedmanx/kopia.git
+[submodule "forks/mantine"]
+	path = forks/mantine
+	url = https://github.com/reanimatedmanx/mantine.git
