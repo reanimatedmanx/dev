@@ -52,3 +52,6 @@
 [submodule "forks/mantine"]
 	path = forks/mantine
 	url = https://github.com/reanimatedmanx/mantine.git
+[submodule "forks/babybuddy"]
+	path = forks/babybuddy
+	url = https://github.com/reanimatedmanx/babybuddy
