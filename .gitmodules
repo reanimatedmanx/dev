@@ -55,3 +55,9 @@
 [submodule "forks/babybuddy"]
 	path = forks/babybuddy
 	url = https://github.com/reanimatedmanx/babybuddy
+[submodule "forks/supabase"]
+	path = forks/supabase
+	url = https://github.com/reanimatedmanx/supabase
+[submodule "forks/hasura"]
+	path = forks/hasura
+	url = https://github.com/reanimatedmanx/hasura.git
