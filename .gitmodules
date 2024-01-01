@@ -44,7 +44,7 @@
 	path = forks/@languages/code/go
 	url = https://github.com/reanimatedmanx/go
 [submodule "forks/forks/vscx"]
-	path = forks/vscx
+	path = forks/@code-editors/vscx
 	url = https://github.com/reanimatedmanx/vscx.git
 [submodule "forks/kopia"]
 	path = forks/kopia
