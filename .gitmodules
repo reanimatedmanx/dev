@@ -38,7 +38,7 @@
 	path = forks/vex
 	url = https://github.com/reanimatedmanx/rust
 [submodule "forks/zig"]
-	path = forks/@languages/code/zig
+	path = forks/zig
 	url = https://github.com/reanimatedmanx/zig
 [submodule "forks/go"]
 	path = forks/@languages/code/go
