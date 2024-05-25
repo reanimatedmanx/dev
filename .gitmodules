@@ -50,7 +50,7 @@
 	path = forks/kopia
 	url = https://github.com/reanimatedmanx/kopia.git
 [submodule "forks/mantine"]
-	path = forks/mantine
+	path = forks/uix
 	url = https://github.com/reanimatedmanx/mantine.git 
 [submodule "forks/babycorp"]
 	path = forks/babycorp
