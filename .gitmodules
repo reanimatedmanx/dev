@@ -2,31 +2,31 @@
 	path = forks/pocketbase
 	url = https://github.com/reanimatedmanx/pocketbase.git
 [submodule "forks/git"]
-	path = forks/@svc/git/git
+	path = forks/@git/git
 	url = https://github.com/reanimatedmanx/git.git
 [submodule "forks/gh-cli"]
-	path = forks/@svc/git/gh-cli
+	path = forks/@git/gh-cli
 	url = https://github.com/reanimatedmanx/gh-cli.git
 [submodule "forks/git-extras"]
-	path = forks/@svc/git/git-extras
+	path = forks/@git/git-extras
 	url = https://github.com/reanimatedmanx/git-extras.git
 [submodule "forks/git-lfs"]
-	path = forks/@svc/git/git-lfs
+	path = forks/@git/git-lfs
 	url = https://github.com/reanimatedmanx/git-lfs.git
 [submodule "forks/git-tips"]
-	path = forks/@svc/git/git-tips
+	path = forks/@git/git-tips
 	url = https://github.com/reanimatedmanx/git-tips.git
 [submodule "forks/gitbucket"]
-	path = forks/@svc/git/gitbucket
+	path = forks/@git/gitbucket
 	url = https://github.com/reanimatedmanx/gitbucket.git
 [submodule "forks/gitea"]
-	path = forks/@svc/git/gitea
+	path = forks/@git/arborea
 	url = https://github.com/reanimatedmanx/gitea.git
 [submodule "forks/gitdesktop"]
-	path = forks/@svc/git/gitdesktop
+	path = forks/@git/gitdesktop
 	url = https://github.com/reanimatedmanx/gitdesktop.git
 [submodule "forks/gitextensions"]
-	path = forks/@svc/git/gitextensions
+	path = forks/@git/gitextensions
 	url = https://github.com/reanimatedmanx/gitextensions.git
 [submodule "forks/jotgit"]
 	path = forks/jotgit
