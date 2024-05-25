@@ -51,10 +51,10 @@
 	url = https://github.com/reanimatedmanx/kopia.git
 [submodule "forks/mantine"]
 	path = forks/mantine
-	url = https://github.com/reanimatedmanx/mantine.git
-[submodule "forks/babybuddy"]
-	path = forks/babybuddy
-	url = https://github.com/reanimatedmanx/babybuddy
+	url = https://github.com/reanimatedmanx/mantine.git 
+[submodule "forks/babycorp"]
+	path = forks/babycorp
+	url = https://github.com/reanimatedmanx/babycorp
 [submodule "forks/supabase"]
 	path = forks/@app-backends/supabase
 	url = https://github.com/reanimatedmanx/supabase
