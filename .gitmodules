@@ -1,32 +1,32 @@
 [submodule "forks/pocketbase"]
-	path = forks/@app-backends/pocketbase
+	path = forks/pocketbase
 	url = https://github.com/reanimatedmanx/pocketbase.git
 [submodule "forks/git"]
-	path = forks/@svc/git/git
+	path = forks/@git/git
 	url = https://github.com/reanimatedmanx/git.git
 [submodule "forks/gh-cli"]
-	path = forks/@svc/git/gh-cli
+	path = forks/@git/gh-cli
 	url = https://github.com/reanimatedmanx/gh-cli.git
 [submodule "forks/git-extras"]
-	path = forks/@svc/git/git-extras
+	path = forks/@git/git-extras
 	url = https://github.com/reanimatedmanx/git-extras.git
 [submodule "forks/git-lfs"]
-	path = forks/@svc/git/git-lfs
+	path = forks/@git/git-lfs
 	url = https://github.com/reanimatedmanx/git-lfs.git
 [submodule "forks/git-tips"]
-	path = forks/@svc/git/git-tips
+	path = forks/@git/git-tips
 	url = https://github.com/reanimatedmanx/git-tips.git
 [submodule "forks/gitbucket"]
-	path = forks/@svc/git/gitbucket
+	path = forks/@git/gitbucket
 	url = https://github.com/reanimatedmanx/gitbucket.git
 [submodule "forks/gitea"]
-	path = forks/@svc/git/gitea
+	path = forks/@git/arborea
 	url = https://github.com/reanimatedmanx/gitea.git
 [submodule "forks/gitdesktop"]
-	path = forks/@svc/git/gitdesktop
+	path = forks/@git/gitdesktop
 	url = https://github.com/reanimatedmanx/gitdesktop.git
 [submodule "forks/gitextensions"]
-	path = forks/@svc/git/gitextensions
+	path = forks/@git/gitextensions
 	url = https://github.com/reanimatedmanx/gitextensions.git
 [submodule "forks/jotgit"]
 	path = forks/jotgit
@@ -35,29 +35,29 @@
 	path = forks/ossinsight
 	url = https://github.com/reanimatedmanx/ossinsight.git
 [submodule "forks/rust"]
-	path = forks/@languages/code/rust
+	path = forks/vex
 	url = https://github.com/reanimatedmanx/rust
 [submodule "forks/zig"]
-	path = forks/@languages/code/zig
+	path = forks/zig
 	url = https://github.com/reanimatedmanx/zig
 [submodule "forks/go"]
-	path = forks/@languages/code/go
+	path = forks/go
 	url = https://github.com/reanimatedmanx/go
 [submodule "forks/forks/vscx"]
-	path = forks/@code-editors/vscx
+	path = forks/fyre
 	url = https://github.com/reanimatedmanx/vscx.git
 [submodule "forks/kopia"]
 	path = forks/kopia
 	url = https://github.com/reanimatedmanx/kopia.git
 [submodule "forks/mantine"]
-	path = forks/mantine
-	url = https://github.com/reanimatedmanx/mantine.git
-[submodule "forks/babybuddy"]
-	path = forks/babybuddy
-	url = https://github.com/reanimatedmanx/babybuddy
+	path = forks/uix
+	url = https://github.com/reanimatedmanx/mantine.git 
+[submodule "forks/babycorp"]
+	path = forks/babycorp
+	url = https://github.com/reanimatedmanx/babycorp
 [submodule "forks/supabase"]
-	path = forks/@app-backends/supabase
+	path = forks/supabase
 	url = https://github.com/reanimatedmanx/supabase
 [submodule "forks/hasura"]
-	path = forks/@app-backends/hasura
+	path = forks/hasura
 	url = https://github.com/reanimatedmanx/hasura.git
