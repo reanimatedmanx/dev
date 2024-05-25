@@ -35,7 +35,7 @@
 	path = forks/ossinsight
 	url = https://github.com/reanimatedmanx/ossinsight.git
 [submodule "forks/rust"]
-	path = forks/@languages/code/rust
+	path = forks/vex
 	url = https://github.com/reanimatedmanx/rust
 [submodule "forks/zig"]
 	path = forks/@languages/code/zig
