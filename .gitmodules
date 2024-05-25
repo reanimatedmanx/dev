@@ -1,5 +1,5 @@
 [submodule "forks/pocketbase"]
-	path = forks/@app-backends/pocketbase
+	path = forks/pocketbase
 	url = https://github.com/reanimatedmanx/pocketbase.git
 [submodule "forks/git"]
 	path = forks/@svc/git/git
@@ -56,8 +56,8 @@
 	path = forks/babycorp
 	url = https://github.com/reanimatedmanx/babycorp
 [submodule "forks/supabase"]
-	path = forks/@app-backends/supabase
+	path = forks/supabase
 	url = https://github.com/reanimatedmanx/supabase
 [submodule "forks/hasura"]
-	path = forks/@app-backends/hasura
+	path = forks/hasura
 	url = https://github.com/reanimatedmanx/hasura.git
