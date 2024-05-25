@@ -41,7 +41,7 @@
 	path = forks/zig
 	url = https://github.com/reanimatedmanx/zig
 [submodule "forks/go"]
-	path = forks/@languages/code/go
+	path = forks/go
 	url = https://github.com/reanimatedmanx/go
 [submodule "forks/forks/vscx"]
 	path = forks/@code-editors/vscx
