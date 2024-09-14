@@ -1,25 +1,28 @@
-[submodule "forks/pocketbase"]
-	path = forks/pocketbase
-	url = git@github.com:reanimatedmanx/pocketbase.git
+
 [submodule "forks/@git/git"]
 	path = forks/@git/git
 	url = git@github.com:reanimatedmanx/git.git
 [submodule "forks/@git/gh-cli"]
 	path = forks/@git/gh-cli
 	url = git@github.com:reanimatedmanx/gh-cli.git
+	branch = main
 	shallow = true
 [submodule "forks/@git/git-extras"]
 	path = forks/@git/git-extras
 	url = git@github.com:reanimatedmanx/git-extras.git
+	branch = main
 [submodule "forks/@git/git-lfs"]
 	path = forks/@git/git-lfs
 	url = git@github.com:reanimatedmanx/git-lfs.git
+	branch = master
 [submodule "forks/@git/git-tips"]
 	path = forks/@git/git-tips
 	url = git@github.com:reanimatedmanx/git-tips.git
+	branch = master
 [submodule "forks/@git/gitbucket"]
 	path = forks/@git/gitbucket
 	url = git@github.com:reanimatedmanx/gitbucket.git
+	branch = master
 # [submodule "forks/@git/gitea"]
 # 	path = forks/@git/gitea
 # 	url = git@github.com:reanimatedmanx/gitea.git
@@ -29,39 +32,55 @@
 [submodule "forks/gitextensions"]
 	path = forks/@git/gitextensions
 	url = git@github.com:reanimatedmanx/gitextensions.git
+	branch = master
 [submodule "forks/jotgit"]
 	path = forks/jotgit
 	url = git@github.com:reanimatedmanx/jotgit.git
+	branch = master
+[submodule "forks/pocketbase"]
+	path = forks/pocketbase
+	url = git@github.com:reanimatedmanx/pocketbase.git
 [submodule "forks/ossinsight"]
 	path = forks/ossinsight
 	url = git@github.com:reanimatedmanx/ossinsight.git
+	branch = main
 [submodule "forks/rust"]
 	path = forks/rust
 	url = git@github.com:reanimatedmanx/rust.git
+	branch = rust
 [submodule "forks/zig"]
 	path = forks/zig
 	url = git@github.com:reanimatedmanx/zig.git
+	branch = master
 [submodule "forks/go"]
 	path = forks/go
 	url = git@github.com:reanimatedmanx/go.git
+	branch = master
 [submodule "forks/vscode"]
 	path = forks/vscode
 	url = git@github.com:reanimatedmanx/vscode.git
+	branch = main
 [submodule "forks/kopia"]
 	path = forks/kopia
 	url = git@github.com:reanimatedmanx/kopia.git
+	branch = master
 [submodule "forks/mantine"]
 	path = forks/mantine
-	url = git@github.com:reanimatedmanx/mantine.git 
+	url = git@github.com:reanimatedmanx/mantine.git
+	branch = master
 [submodule "forks/babybuddy"]
 	path = forks/babybuddy
 	url = git@github.com:reanimatedmanx/babybuddy.git
+	branch = master
 [submodule "forks/supabase"]
 	path = forks/supabase
 	url = git@github.com:reanimatedmanx/supabase.git
+	branch = master
 [submodule "forks/hasura"]
 	path = forks/hasura
 	url = git@github.com:reanimatedmanx/hasura.git
+	branch = master
 [submodule "forks/mealie"]
 	path = forks/mealie
 	url = git@github.com:reanimatedmanx/mealie.git
+	branch = main
