@@ -1,30 +1,31 @@
 [submodule "forks/pocketbase"]
 	path = forks/pocketbase
 	url = git@github.com:reanimatedmanx/pocketbase.git
-[submodule "forks/git"]
+[submodule "forks/@git/git"]
 	path = forks/@git/git
 	url = git@github.com:reanimatedmanx/git.git
-[submodule "forks/gh-cli"]
+[submodule "forks/@git/gh-cli"]
 	path = forks/@git/gh-cli
 	url = git@github.com:reanimatedmanx/gh-cli.git
-[submodule "forks/git-extras"]
+	shallow = true
+[submodule "forks/@git/git-extras"]
 	path = forks/@git/git-extras
 	url = git@github.com:reanimatedmanx/git-extras.git
-[submodule "forks/git-lfs"]
+[submodule "forks/@git/git-lfs"]
 	path = forks/@git/git-lfs
 	url = git@github.com:reanimatedmanx/git-lfs.git
-[submodule "forks/git-tips"]
+[submodule "forks/@git/git-tips"]
 	path = forks/@git/git-tips
 	url = git@github.com:reanimatedmanx/git-tips.git
-[submodule "forks/gitbucket"]
+[submodule "forks/@git/gitbucket"]
 	path = forks/@git/gitbucket
 	url = git@github.com:reanimatedmanx/gitbucket.git
-[submodule "forks/gitea"]
-	path = forks/@git/gitea
-	url = git@github.com:reanimatedmanx/gitea.git
-[submodule "forks/gitdesktop"]
-	path = forks/@git/gitdesktop
-	url = git@github.com:reanimatedmanx/gitdesktop.git
+# [submodule "forks/@git/gitea"]
+# 	path = forks/@git/gitea
+# 	url = git@github.com:reanimatedmanx/gitea.git
+# [submodule "forks/@git/gitdesktop"]
+# 	path = forks/@git/gitdesktop
+# 	url = git@github.com:reanimatedmanx/gitdesktop.git
 [submodule "forks/gitextensions"]
 	path = forks/@git/gitextensions
 	url = git@github.com:reanimatedmanx/gitextensions.git
@@ -52,9 +53,9 @@
 [submodule "forks/mantine"]
 	path = forks/mantine
 	url = git@github.com:reanimatedmanx/mantine.git 
-[submodule "forks/babycorp"]
+[submodule "forks/babybuddy"]
 	path = forks/babybuddy
-	url = git@github.com:reanimatedmanx/babycorp.git
+	url = git@github.com:reanimatedmanx/babybuddy.git
 [submodule "forks/supabase"]
 	path = forks/supabase
 	url = git@github.com:reanimatedmanx/supabase.git
