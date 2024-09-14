@@ -1,0 +1,22 @@
+version: '3'
+
+tasks:
+  init:
+    cmds:
+      - git submodule update --init --recursive
+      - git submodule absorbgitdirs
+  sync:
+    cmds:
+      - git submodule sync --recursive
+      - git pull --recurse-submodules
+  status:
+    cmds:
+      - git submodule status
+      - git submodule foreach "git status -s -b"
+  stash:
+    cmds:
+      - git submodule foreach "git stash save -u"
+      - git submodule foreach "git status -s -b"
+  reset:
+    cmds:
+      - git submodule foreach "git reset --hard"
